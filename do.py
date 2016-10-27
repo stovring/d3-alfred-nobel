@@ -22,7 +22,7 @@ __authors__       = [
     '"Prabhat Kumar" <prabhat.genome@gmail.com>',
     '"Sequømics Corporation" <admin@sequomics.com>'
     ]
-__license__       = 'Apache License'
+__license__       = 'MIT License'
 __date__          = '28-10-2016'
 
 module            = 'alfredNobel'
@@ -61,7 +61,7 @@ header ='''
  * ___________________________________________________________________________
  *
  * @date      : 28-Oct-2016
- * @license   : Apache, version 2.0
+ * @license   : MIT License
  * @require   : d3.js®
  * @build     : SEED™ — Stockholm
  *              |---- A Sequømics Product.
