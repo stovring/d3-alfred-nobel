@@ -28,3 +28,5 @@ __date__          = '28-10-2016'
 module            = 'alfredNobel'
 input_path        = 'core/src/'
 output_path       = 'index.js'
+
+import os
