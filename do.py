@@ -31,3 +31,4 @@ output_path       = 'index.js'
 
 import os
 import sys
+import re
