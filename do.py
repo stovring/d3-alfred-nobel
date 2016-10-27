@@ -30,3 +30,4 @@ input_path        = 'core/src/'
 output_path       = 'index.js'
 
 import os
+import sys
