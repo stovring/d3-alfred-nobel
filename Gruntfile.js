@@ -154,3 +154,15 @@ module.exports = function(grunt) {
         }
       }
     },
+    // 3. Data --> 3.1 Lint
+    // ~~~~~~~~~~~~~~~~~~~~
+    jsonlint: {
+      all: {
+        src: ['pub/data/tank/alfred-bernhard-nobel-data-expanded.json', 'pub/data/tank/alfred-bernhard-nobel-data-collapsed.json'],
+        options: {
+          formatter: 'prose',
+          format: true,
+          indent: 2
+        }
+      }
+    },
