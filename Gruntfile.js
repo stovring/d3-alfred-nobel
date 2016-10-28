@@ -259,3 +259,21 @@ module.exports = function(grunt) {
         dest: 'app/en/assets/'
       }
     },
+    // 5.2 Remove logs and list all files
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    exec: {
+      remove_logs: {
+        command: 'rm -f *.log',
+        stdout: false,
+        stderr: false
+      },
+      list_files: {
+        cmd: 'ls -l **'
+      },
+      list_all_files: 'ls -la',
+      echo_grunt_version: {
+        cmd: function() {
+          return 'echo ' + this.version;
+        }
+      }
+    },
