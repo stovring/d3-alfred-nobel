@@ -49,3 +49,4 @@ var tag      = ['/*!', pkg.name, pkg.version, pkg.author, '*/\n'].join(' ');
 // ----------------------------------------------------------------------------
 // All Grunt Operations Defined...  | 28/October/2016
 // ----------------------------------------------------------------------------
+module.exports = function(grunt) {
