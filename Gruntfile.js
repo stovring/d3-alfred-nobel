@@ -24,3 +24,7 @@
  * --/The Heart of Build System/-- of "d3-alfred-nobel®".
  * ____________________________________________________________________
  */
+
+// # Usage: $ node -v
+// # Usage: $ npm -v
+// # Usage: $ grunt -version
