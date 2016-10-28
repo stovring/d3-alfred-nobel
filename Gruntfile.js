@@ -43,3 +43,5 @@ var okay  = chalk.blue;
 // ~~~~~~~~~~~~~~~~
 var rootPath = './';
 var appsPath = './app/';
+var pkg      = require('./package.json');
+var tag      = ['/*!', pkg.name, pkg.version, pkg.author, '*/\n'].join(' ');
