@@ -236,3 +236,17 @@ module.exports = function(grunt) {
         }
       }
     },
+    // 5. Clean --> temporary files or directories
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    clean: {
+      // before generating any new files, remove any previously-created files.
+      test: ['tmp', '*.temp', '*.log'],
+      // will delete files for `build` target.
+      build: ['build'],
+      release: {
+        options: {
+          'no-write': true
+        },
+        src: ['app']
+      }
+    },
