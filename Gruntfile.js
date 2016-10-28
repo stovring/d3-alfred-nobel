@@ -72,3 +72,16 @@ module.exports = function(grunt) {
   grunt.initConfig({
     
     pkg: grunt.file.readJSON('package.json'), /* reading 'package.json' for sync package(s) updates, mainly. */
+    
+    // ---------------------------------------------------------------------------|
+    // Task(s) for SEED™ Building System ||                                       |
+    // -----------------------------------                                        |
+    // 1. Assembly --> HTML - Lint + Minify                                       |
+    // 2. CSS Lint + Minify                                                       |
+    // 3. Data Build + Lint                                                       |
+    // 4. JavaScript Lint + Concatenation + Minify                                |
+    // 5. Cleaning of temporary files or directories                              |
+    // 6. Localhost Server + Watch                                                |
+    // 7. Development dependencies updates                                        |
+    // 8. Release(s) with version updates                                         |
+    // ---------------------------------------------------------------------------|
