@@ -166,3 +166,13 @@ module.exports = function(grunt) {
         }
       }
     },
+    // 3. Data --> 3.2 Minify
+    // ~~~~~~~~˘~˘~~~~~~~~~~~
+    minjson: {
+      compile: {
+        files: {
+          // minify only one json data file.
+          'pub/data/gold/alfred-bernhard-nobel-data-expanded.min.json': 'pub/data/tank/alfred-bernhard-nobel-data-expanded.json'
+        }
+      }
+    },
