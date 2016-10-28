@@ -176,3 +176,30 @@ module.exports = function(grunt) {
         }
       }
     },
+    // 4. JavaScript --> 4.1 Lint
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    jshint: {
+      options: {
+        curly: true,
+        eqeqeq: true,
+        eqnull: true,
+        browser: true,
+        globals: {
+          d3: true,
+          Modernizr: true,
+          jQuery: true
+        },
+        strict: true,
+      },
+      ignore_warning: {
+        options: {
+          '-W015': true // [L24:C9] W015: Expected '}' to have an indentation at 11 instead at 9.
+        }
+      },
+      all: [
+        './Gruntfile.js',
+        './core/src/**/*.js',
+        './index.js',
+        '!node_modules/**/*.js' // ignores node_modules.
+      ]
+    },
