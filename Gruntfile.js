@@ -140,3 +140,17 @@ module.exports = function(grunt) {
     },
     // To update '.csslintrc' list, run this:
     // node -e "require('csslint').CSSLint.getRules().forEach(function(x) { console.log(x.id) })"
+    // 2. CSS --> 2.2 Minify
+    // ~~~~~~~~~~~~~~~~~~~~~
+    cssmin: {
+      options: {
+        shorthandCompacting: false,
+        roundingPrecision: -1
+      },
+      target: {
+        files: {
+          'build/en/assets/style/root.min.css': ['app/en/assets/style/font.css', 'app/en/assets/style/root.css'],
+          'build/en/assets/style/main.min.css': ['app/en/assets/style/font.css', 'app/en/assets/style/main.css'],
+        }
+      }
+    },
