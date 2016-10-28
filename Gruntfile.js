@@ -45,3 +45,7 @@ var rootPath = './';
 var appsPath = './app/';
 var pkg      = require('./package.json');
 var tag      = ['/*!', pkg.name, pkg.version, pkg.author, '*/\n'].join(' ');
+
+// ----------------------------------------------------------------------------
+// All Grunt Operations Defined...  | 28/October/2016
+// ----------------------------------------------------------------------------
