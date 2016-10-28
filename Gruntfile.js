@@ -250,3 +250,12 @@ module.exports = function(grunt) {
         src: ['app']
       }
     },
+    // 5.1 Copy - Data {JSON}
+    // ~~~~~~~~~~~~~~~~~~~~~~
+    copy: {
+      main: {
+        expand: true,
+        src: 'pub/data/gold/*',
+        dest: 'app/en/assets/'
+      }
+    },
