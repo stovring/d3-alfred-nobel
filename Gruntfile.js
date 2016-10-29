@@ -31,6 +31,8 @@
 
 "use strict";
 
+// load required Node modules.
+var path  = require('path');
 // Load required NPM modules.
 var chalk = require('chalk');
 
