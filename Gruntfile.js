@@ -35,6 +35,7 @@
 var path  = require('path');
 // Load required NPM modules.
 var chalk = require('chalk');
+var isTravis = require('is-travis');
 
 // Default color defined.
 var noop  = chalk.red;
